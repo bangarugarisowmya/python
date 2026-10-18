@@ -1,0 +1,10 @@
+import math
+
+num = 64
+
+# Calculate square root
+square_root = math.sqrt(num)
+
+print(f"The square root of {num} is {square_root}")
+
+result : The square root of 64 is 8.0
