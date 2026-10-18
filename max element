@@ -1,0 +1,12 @@
+numbers = [12, 45, 2, 89, 23]
+max_val = numbers[0]
+
+for num in numbers:
+    if num > max_val:
+        max_val = num
+
+print(f"The list is: {numbers}")
+print(f"The maximum element is: {max_val}")
+
+result : The list is: [12, 45, 2, 89, 23]
+         The maximum element is: 89
