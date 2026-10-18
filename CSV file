@@ -1,0 +1,16 @@
+import csv
+import io
+
+# Simulating a CSV file in memory using io.StringIO
+csv_data = "Name,Age,Role\nAlice,22,Student\nBob,24,Engineer"
+f = io.StringIO(csv_data)
+
+reader = csv.reader(f)
+print("Parsing CSV data:")
+for row in reader:
+    print(f"Row: {row}")
+
+result : Parsing CSV data
+         Row: ['Name', 'Age', 'Role']
+         Row: ['Alice', '22', 'Student']
+         Row: ['Bob', '24', 'Engineer']
