@@ -1,0 +1,14 @@
+fruits = ["apple", "banana", "apple", "orange", "banana", "apple"]
+fruit_count = {}
+
+for fruit in fruits:
+    if fruit in fruit_count:
+        fruit_count[fruit] += 1
+    else:
+        fruit_count[fruit] = 1
+
+print(f"Fruit list: {fruits}")
+print(f"Frequency count: {fruit_count}")
+
+result : Fruit list: ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+         Frequency count: {'apple': 3, 'banana': 2, 'orange': 1}
