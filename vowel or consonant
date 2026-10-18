@@ -1,0 +1,13 @@
+char = 'e'
+
+# Convert to lowercase to handle both cases
+char_lower = char.lower()
+
+if char_lower in ('a', 'e', 'i', 'o', 'u'):
+    print(f"'{char}' is a vowel.")
+elif char_lower.isalpha():
+    print(f"'{char}' is a consonant.")
+else:
+    print(f"'{char}' is not a valid alphabet letter.")
+
+result : 'e' is a vowel.
