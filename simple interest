@@ -1,0 +1,20 @@
+def calculate_simple_interest(principal, rate, time):
+    interest = (principal * rate * time) / 100
+    return interest
+
+# Example values
+P = 10000  # Principal amount
+R = 5      # Annual interest rate in percent
+T = 3      # Time in years
+
+si = calculate_simple_interest(P, R, T)
+
+print(f"Principal: {P}")
+print(f"Rate: {R}%")
+print(f"Time: {T} years")
+print(f"Calculated Simple Interest: {si}")
+
+result : Principal: 10000
+         Rate: 5%
+         Time: 3 years
+         Calculated Simple Interest: 1500.0
