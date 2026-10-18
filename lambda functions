@@ -1,0 +1,12 @@
+# A lambda function that cubes a number
+cube = lambda x: x ** 3
+
+numbers = [1, 2, 3, 4, 5]
+# Apply the lambda function to every item in the list
+cubed_numbers = list(map(cube, numbers))
+
+print(f"Original numbers: {numbers}")
+print(f"Cubed numbers: {cubed_numbers}")
+
+result : Original numbers: [1, 2, 3, 4, 5]
+         Cubed numbers: [1, 8, 27, 64, 125]
